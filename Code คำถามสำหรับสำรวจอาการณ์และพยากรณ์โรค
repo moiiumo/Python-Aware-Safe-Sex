@@ -3,7 +3,7 @@ responses = []
 
 responses.append(input("1.คุณมีเพศสัมพันธ์โดยสอดใส่ทางช่องปากใช่หรือไม่: ").lower() == 'ใช่')
 responses.append(input("2.คุณมีเพศสัมพันธ์โดยสอดใส่ทางทวารหนักใช่หรือไม่: ").lower() == 'ใช่')
-responses.append(input("3.คุณเคยฉีดวัคซีนป้องกันมะเร็จากมดลูกใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("3.คุณเคยฉีดวัคซีนป้องกันไวรัสHPVใช่หรือไม่: ").lower() == 'ใช่')
 responses.append(input("4.คุณมีอาการเหนื่อยหอบง่ายใช่หรือไม่: ").lower() == 'ใช่')
 responses.append(input("5.คุณมีอาการน้ำหนักลดอย่างรวดเร็วใช่หรือไม่: ").lower() == 'ใช่')
 responses.append(input("6.คุณมีอาการเป็นไข้ใช่หรือไม่: ").lower() == 'ใช่')
@@ -63,7 +63,7 @@ else:
     print("ไม่มีความเสี่ยงเป็นโรคริมอ่อน")
 
 # แสดงผลลัพธ์โรคHIV
-if  responses[1] and responses[2] and responses[3] and responses[4] and responses[5] and responses[6] and responses[7] and responses[8] and responses[9] and responses[10] and responses[11] and responses[22] and responses[24] and responses[25]:
+if  responses[4] and responses[5] and responses[6] and responses[7] and responses[8] and responses[9] and responses[10] and responses[11] and responses[22] and responses[24] and responses[25]:
     print("มีความเสี่ยงเป็นโรคHIVควรรีบรับการตรวจรักษา")
 if responses[22] and responses[24]  and responses[25] and responses[7]:
     print("มีความเสี่ยงเป็นโรคHIVควรตรวจและติดตามอาการ")
@@ -72,9 +72,11 @@ else:
 
 
 # แสดงผลลัพธ์โรคHPV
-if responses[26]  :
+if responses[3] :    
+    print("มีความเสี่ยงติดเชื้อHPVต่ำ")
+elif responses[26]  :
     print("มีความเสี่ยงติดเชื้อHPVควรตรวจและติดตามอาการ")
-if responses[1] or responses[27]:
+elif responses[1] or responses[27]:
     print("มีความเสี่ยงเป็นมะเร็งช่องปากควรตรวจและติดตามอาการ")
 if responses[2] or responses[28]:
     print("มีความเสี่ยงเป็นมะเร็งทวารหนักควรตรวจและติดตามอาการ")
