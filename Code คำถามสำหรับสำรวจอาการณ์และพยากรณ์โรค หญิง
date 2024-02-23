@@ -1,0 +1,90 @@
+# สร้างรายการเพื่อเก็บข้อมูล
+responses = []
+
+responses.append(input("1.คุณมีเพศสัมพันธ์โดยสอดใส่ทางช่องปากใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("2.คุณมีเพศสัมพันธ์โดยสอดใส่ทางทวารหนักใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("3.คุณเคยฉีดวัคซีนป้องกันมะเร็จากมดลูกใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("4.คุณมีอาการเหนื่อยหอบง่ายใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("5.คุณมีอาการน้ำหนักลดอย่างรวดเร็วใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("6.คุณมีอาการเป็นไข้ใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("7.คุณมีอาการไข้ตลอดเวลาใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("8.คุณมีอาการปวดหัวใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("9.คุณมีอาการปวดตามกล้ามเนื้อและข้อต่อใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("10.คุณมีอาการไอไข้ใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("11.คุณมีอาการเจ็บคอใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("12.คุณมีอาการผมร่วงมากใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("13.คุณมีอาการมีตกขาวลักษณะผิดปกติและมีกลิ่นเหม็นใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("14.คุณมีอาการตกขาวน้ำหรือเส้นบางๆสีเขียวหรือเหลืองใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("15.คุณมีอาการปัสสาวะแล้วรู้สึกเจ็บหรือแสบใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("16.คุณมีอาการเลือดออกระหว่างรอบเดือนและหลังการมีเพศสัมพันธ์ใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("17.คุณมีอาการรู้สึกคันหรือแสบร้อนบริเวณรอบอวัยวะเพศใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("18.คุณมีอาการเป็นตุ่มนูนแดงบริเวณอวัยวะเพศ ต้นขา ขาหนีบ และปากมดลูกใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("19.คุณมีอาการเป็นแผลหนองมีอาการเจ็บหรือปวดมากใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("20.คุณมีจำนวนแผลมักมีมากกว่า 4 แผลขึ้นไปใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("21.คุณมีอาการต่อมน้ำเหลืองที่ขาหนีบบวมโตจนกลายเป็นแผลหนองใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("22.คุณมีอาการมีฝ้าสีขาว หรือแผลบริเวณลิ้นและปากใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("23.คุณมีอาการ มีเหงื่อไหลตลอดทั้งคืนใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("24.คุณมีอาการท้องร่วงเรื้อรังใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("25.คุณมีอาการ มีหูดตาม ใบหน้า แขน ขา หรือตามร่างกายใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("26.คุณมีอาการมีหูดตามช่องปากใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("27.คุณมีอาการมีหูดตามอวัยวะเพศใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("28.คุณมีอาการผื่นที่มีลักษณะตุ่มนูนคล้ายหูดขึ้นตามอวัยวะเพศไม่มีอาการคันตามผิวหนังใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("29.คุณมีอาการรู้สึกเจ็บหรือแสบที่อวัยวะเพศขณะปัสสาวะใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("30.คุณมีแผลขนาดเล็กบริเวณตามอวัยวะเพศใช่หรือไม่: ").lower() == 'ใช่')
+responses.append(input("31.คุณมีอาการมีหูดตามทวารหนักใช่หรือไม่: ").lower() == 'ใช่')
+
+
+# แสดงผลลัพธ์โรคหนองในแท้
+if responses[14] and responses[15] and responses[16]:
+    print("มีความเสี่ยงเป็นโรคหนองในแท้สูงควรรีบรับการตรวจรักษา")
+if responses[14] or responses[15] or responses[16]:
+    print("มีความเสี่ยงเป็นโรคหนองในแท้ควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงเป็นโรคหนองในแท้")
+
+# แสดงผลลัพธ์โรคหนองในเทียม
+if responses[6] and responses[10] and responses[11] and responses[13] and responses[29]:
+    print("มีความเสี่ยงเป็นโรคหนองในเทียมสูงควรรีบรับการตรวจรักษา")
+if responses[6] or responses[10] or responses[11] or responses[13] or responses[20]:
+    print("มีความเสี่ยงเป็นโรคหนองในเทียมควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงเป็นโรคหนองในเทียม")
+
+# แสดงผลลัพธ์โรคซิฟิลิส
+if responses[28] and responses[30]:
+    print("มีความเสี่ยงเป็นโรคซิฟิลิสสูงควรรีบรับการตรวจรักษา")
+if responses[28] or responses[30]:
+    print("มีความเสี่ยงเป็นโรคซิฟิลิสควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงเป็นโรคซิฟิลิส")
+
+# แสดงผลลัพธ์โรคริมอ่อน
+if responses[13] and responses[18] and responses[19] and responses[20] and responses[21]:
+    print("มีความเสี่ยงเป็นโรคริมอ่อนสูงควรรีบรับการตรวจรักษา")
+if responses[13] or responses[18] or responses[19] or responses[20] or responses[21]:
+    print("มีความเสี่ยงเป็นโรคริมอ่อนควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงเป็นโรคริมอ่อน")
+
+# แสดงผลลัพธ์โรคHIV
+if  responses[4] and responses[5] and responses[6] and responses[7] and responses[8] and responses[9] and responses[10] and responses[11] and responses[22] and responses[24] and responses[25]:
+    print("มีความเสี่ยงเป็นโรคHIVควรรีบรับการตรวจรักษา")
+if responses[22] and responses[24]  and responses[25] and responses[7]:
+    print("มีความเสี่ยงเป็นโรคHIVควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงเป็นโรคHIV")
+
+
+# แสดงผลลัพธ์โรคHPV
+if responses[3]:    
+    print("มีความเสี่ยงติดเชื้อHPVต่ำ")
+elif responses[28]:
+    print("มีความเสี่ยงติดเชื้อHPVควรตรวจและติดตามอาการ")
+elif responses[27]:
+    print("มีความเสี่ยงเป็นมะเร็งปากมดลูกควรตรวจและติดตามอาการ")    
+elif responses[1] or responses[26]:
+    print("มีความเสี่ยงเป็นมะเร็งช่องปากควรตรวจและติดตามอาการ")
+if responses[2] or responses[31]:
+    print("มีความเสี่ยงเป็นมะเร็งทวารหนักควรตรวจและติดตามอาการ")
+else:
+    print("ไม่มีความเสี่ยงติดเชื้อHPV")
